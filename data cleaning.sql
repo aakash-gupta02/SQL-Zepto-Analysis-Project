@@ -20,4 +20,13 @@ WHERE
   
   
   select * from zepto_v2;
+  
+  
+  select * from zepto_v2 where mrp = 0 or discountedSellingPrice = 0;
+  
+  delete from zepto_v2
+  where mrp = 0;
+  
+  SET SQL_SAFE_UPDATES = 0;
+
  
